@@ -3,13 +3,33 @@ body {
 	background: #000000;
 	color: #ffffff;
 	/*text-align:center;*/
-	width:900px;
-	margin-left: 20px;
+	/*width:900px;
+	margin-left: 20px;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
-li {
-	text-align:left;
+.navbar, .jumbotron {
+    margin-bottom: 20px;
+    background: #000000;
+    color: #ffffff;
 }
+
+/*.jumbotron
+{
+    background: #000000;
+	color: #ffffff;
+}*/
+
+.list-group .list-group-item
+{
+    background: #000000;
+	color: #90a1a3;
+}
+
+/*li {
+	text-align:left;
+}*/
 
 a:link {color:#90a1a3;}
 a:visited {color:#90a1a3;}
