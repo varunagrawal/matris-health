@@ -2,25 +2,64 @@
 <html>
     <head>
         <title>Matris Health Pages - On The Web</title>
+        
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+        
         <link rel="stylesheet" type="text/css" href="../style.css" />
     </head>
 
     <body>
-        <header>
-			<h2>Matris Health Pages</h2>
-			<h4>Enabling Motherhood Through Technology</h4>
-        </header>
+    
+        <div class="container">
+        
+            <nav class="navbar navbar-default" role="navigation">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                      </button>
+                      <a class="navbar-brand" href="#">Matris Health Pages</a>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="../diet/index.html">Diet</a></li>
+                        <li><a href="../exercise/index.html">Exercise</a></li>
+                        <li class="active"><a href="../labour/index.html">Labour</a></li>                
+                        <li><a href="../work/index.html">Work</a></li>                
+                    </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+            
+            <header class="jumbotron container-fluid">
+                <h2>Matris Health Pages</h2>
+                <h4>Enabling Motherhood Through Technology</h4>
+                <h3>Labour</h3>
+            </header>
 	
-		<h3>Labour</h3>
-        <ul>
-            <li><a href="breathing-techniques-for-labour.html">Breathing Techniques For Labour</a></li>
-			<li><a href="caesarean-section.html">Caesarean Section</a></li>
-			<li><a href="relaxation-in-labour.html">Relaxation In Labour</a></li>
-			<li><a href="signs-for-how-I-will-know-I-am-in-labour.html">Signs For How I Will Know I Am In Labour</a></li>
-        </ul>
 		
-		<br/>
-		<a href="../index.html">Back</a>
-		
+            <ul class="list-group">
+                <a href="breathing-techniques-for-labour.html"><li class="list-group-item">Breathing Techniques For Labour</li></a>
+                <a href="caesarean-section.html"><li class="list-group-item">Caesarean Section</li></a>
+                <a href="relaxation-in-labour.html"><li class="list-group-item">Relaxation In Labour</li></a>
+                <a href="signs-for-how-I-will-know-I-am-in-labour.html"><li class="list-group-item">Signs For How I Will Know I Am In Labour</li></a>
+            </ul>
+            
+            <br/>
+            <a href="../index.html">Back</a>
+        </div>
+        
+        <!-- Bootstrap core JavaScript
+        ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     </body>    
 </html>
