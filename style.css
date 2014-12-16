@@ -21,15 +21,16 @@ body {
 	color: #ffffff;
 }*/
 
+.list-group a .list-group-item {
+    color: #90a1a3;
+	/*text-align:left;*/
+    /*font-size: 100%;*/
+}
+
 .list-group .list-group-item
 {
     background: #000000;
-	color: #90a1a3;
-}
-
-li {
-	/*text-align:left;*/
-    /*font-size: 100%;*/
+	color: #ffffff;*/
 }
 
 a:link {color:#90a1a3;}
